@@ -1,0 +1,2 @@
+src/*              /usr/share/php/DI/Bridge/Slim
+composer.json      /usr/share/php/DI/Bridge/Slim

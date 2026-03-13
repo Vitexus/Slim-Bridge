@@ -1,0 +1,22 @@
+Source: php-di-slim-bridge
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/PHP-DI/Slim-Bridge
+Rules-Requires-Root: no
+
+Package: php-di-slim-bridge
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-di,
+ php-di-invoker,
+ php-slim
+Description: PHP-DI integration in Slim 4
+ Provides PHP-DI dependency injection container integration for
+ the Slim 4 PHP micro framework. Includes a callable resolver
+ and controller invoker using PHP-DI.
